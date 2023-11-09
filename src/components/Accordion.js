@@ -11,9 +11,9 @@ const Accordion = () => {
           onClick={() => (showDiv === 0 ? setShowDiv(false) : setShowDiv(0))}
         >
           <h1>Recommended</h1>
-          <p>↕️</p>
+          <p>⬇</p>
         </div>
-        {showDiv === 0 && <h1> ⬇ Bbq Chicken pizza</h1>}
+        {showDiv === 0 && <h1> ↕️ Bbq Chicken pizza</h1>}
       </div>
       <div className="border flex flex-col gap-2 p-2 text-gray-300">
         <div
@@ -21,9 +21,9 @@ const Accordion = () => {
           onClick={() => (showDiv === 1 ? setShowDiv(false) : setShowDiv(1))}
         >
           <h1>Quesadilla-fantastic Four</h1>
-          <p>↕️</p>
+          <p>⬇</p>
         </div>
-        {showDiv === 1 && <h1> ⬇ Quesadilla Pack Of 4 (veg)</h1>}
+        {showDiv === 1 && <h1> ↕️ Quesadilla Pack Of 4 (veg)</h1>}
       </div>
       <div className="border flex flex-col gap-2 p-2 text-gray-300">
         <div
@@ -31,9 +31,9 @@ const Accordion = () => {
           onClick={() => (showDiv === 2 ? setShowDiv(false) : setShowDiv(2))}
         >
           <h1>Veg Pizza</h1>
-          <p>↕️</p>
+          <p>⬇</p>
         </div>
-        {showDiv === 2 && <h1> ⬇ Traditional Pizza Veg</h1>}
+        {showDiv === 2 && <h1> ↕️ Traditional Pizza Veg</h1>}
       </div>
       <div className="border flex flex-col gap-2 p-2 text-gray-300 cursor-pointer">
         <div
@@ -41,9 +41,9 @@ const Accordion = () => {
           onClick={() => (showDiv === 3 ? setShowDiv(false) : setShowDiv(3))}
         >
           <h1>Non-veg Pizza</h1>
-          <p>↕️</p>
+          <p>⬇</p>
         </div>
-        {showDiv === 3 && <h1> ⬇ Exotic Pizza Non-veg</h1>}
+        {showDiv === 3 && <h1> ↕️ Exotic Pizza Non-veg</h1>}
       </div>
     </div>
   );
